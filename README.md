@@ -11,13 +11,13 @@
 
 
 ###Sample.java
-
-        //#ifdef CUSTOMER1
-        private String abc = "abc";
-        //#else
-        private String abc = "cba";
-        //#endif
-        
+```
+//#ifdef CUSTOMER1
+private String abc = "abc";
+//#else
+private String abc = "cba";
+//#endif
+```        
         
 ###build.xml
 
