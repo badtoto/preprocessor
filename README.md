@@ -1,15 +1,16 @@
-It based on ant copy task.
+#Preprocessor - A Preprocess Tool for Java
 
-supports the following files:
-Java/JSP
-HTML/javascript/CSS
-XML
-Properties files
-supports file encoding specified
-supports filtering
+###It based on ant copy task.
+- supports the following files:
+- Java/JSP
+- HTML/javascript/CSS
+- XML
+- Properties files
+- supports file encoding specified
+- supports filtering
 
 
-Sample.java
+###Sample.java
 
         //#ifdef CUSTOMER1
         private String abc = "abc";
@@ -18,7 +19,7 @@ Sample.java
         //#endif
         
         
-build.xml
+###build.xml
 
         <project name="sample.project" default="war" basedir=".">
         
