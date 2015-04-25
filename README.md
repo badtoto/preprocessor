@@ -11,13 +11,13 @@ supports filtering
 
 Sample.java
 
-<!--DEFINE START-->
+<!-- DEFINE START -->
 //#ifdef CUSTOMER1
 private String abc = "abc";
 //#else
 private String abc = "cba";
 //#endif
-<!--DEFINE END-->
+<!-- DEFINE END -->
 
 build.xml
 
