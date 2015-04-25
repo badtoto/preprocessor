@@ -1,6 +1,6 @@
 #Preprocessor - A Preprocess Tool for Java
 
-###It based on ant copy task.
+###Features
 - supports the following files:
 - Java/JSP
 - HTML/javascript/CSS
@@ -10,7 +10,7 @@
 - supports filtering
 
 
-###Sample.java
+*Sample.java*
 ```
 //#ifdef CUSTOMER1
 private String abc = "abc";
@@ -19,7 +19,7 @@ private String abc = "cba";
 //#endif
 ```        
         
-###build.xml
+*build.xml*
 ```
 <project name="sample.project" default="war" basedir=".">
 
